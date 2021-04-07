@@ -13,13 +13,14 @@ Install from haproxy machine
   enter you names and IPs
   like:
 
+``` js
 all:
   hosts:
     my-best-master01:
       ansible_host: 192.168.0.1
       ip: 192.168.0.1
       acces_ip: 192.168.0.1
-
+``` 
 ### 5) sudo nano /kube/kubespray/inventory/mycluster/group_vars/all/all.yml
   add your haproxy VIP like this :
 
