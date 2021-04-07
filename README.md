@@ -23,11 +23,11 @@ all:
 ``` 
 ### 5) sudo nano /kube/kubespray/inventory/mycluster/group_vars/all/all.yml
   add your haproxy VIP like this :
-
+``` js
 loadbalancer_apiserver:
   address: 192.168.0.3
   port: 6443
-
+```
 ### 6) Share your certs (from root)
 ssh-keygen -t rsa
 ssh-copy-id root@<your_node_ip>
