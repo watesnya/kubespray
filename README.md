@@ -47,9 +47,9 @@ sudo apt install python3-pip
 ### 8) Go to main folder (cd /kube/kubespray)
 
 ### 9) Install cluster
-
+``` js
 ansible-playbook -i inventory/mycluster/hosts.yaml  --become --become-user=root cluster.yml --extra-vars "ansible_sudo_pass=<your_root_password>" --timeout 180
-
+```
 
 
 
