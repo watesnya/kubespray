@@ -1,4 +1,4 @@
-# IT-Enterprise list
+# Install guide
 Install from haproxy machine
 
 ### 1) supo apt-get install git 
