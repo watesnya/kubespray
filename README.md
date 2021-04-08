@@ -63,6 +63,7 @@ ansible-playbook -i inventory/mycluster/hosts.yaml  --become --become-user=root 
 If you need to install the cluster using http \ https proxy - you need to add these parameters before installation.
 
 sudo nano inventory/mycluster/group_vars/all/all.yml
-
+``` js
 http_proxy: "192.168.0.1"
 https_proxy: "192.168.0.1"
+```
