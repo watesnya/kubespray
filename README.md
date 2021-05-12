@@ -30,6 +30,7 @@ loadbalancer_apiserver:
 ```
 ### 6) Share your certs (from root)
 ssh-keygen -t rsa
+
 ssh-copy-id root@<your_node_ip>
 
 try connect: ssh <your_node_ip>
